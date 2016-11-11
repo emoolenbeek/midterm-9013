@@ -84,7 +84,6 @@ nav>ul {
 nav li {
     list-style: none;
     width: 100%;
-    /*    margin: 4.8vw;*/
     display: inline-block;
 }
 
@@ -96,10 +95,6 @@ nav a:visited {
     text-align: center;
 }
 
-nav a:active,
-nav a:focus,
-nav a:hover {}
-
 main {
     width: 100%;
     display: inline-block;
@@ -109,6 +104,10 @@ main {
 .col {
     float: none;
     width: 100%;
+}
+
+.col p {
+    transform: scale(0.8);
 }
 
 .col img {
@@ -165,6 +164,9 @@ footer p {
     }
     .col {
         width: 100%;
+    }
+    .col p {
+        transform: scale(1);
     }
     img {
         width: 100%;
