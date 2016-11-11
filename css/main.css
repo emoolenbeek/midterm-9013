@@ -116,6 +116,7 @@ main {
     max-width: 100%;
     background-color: azure;
     float: left;
+    margin-bottom: 2vh;
 }
 
 footer {
@@ -129,6 +130,7 @@ body {
 
 .link {
     border: 1px solid black;
+    border-radius: 25px;
 }
 
 footer ul li {
@@ -138,7 +140,6 @@ footer ul li {
 footer p {
     margin-top: 3vh;
 }
-
 @media screen and (min-width:600px) {
     /* S */
     .col {
@@ -190,7 +191,6 @@ footer p {
     }
     .link {
         border: 0px;
-        border-radius: 25px;
         background-color: bisque;
         text-decoration: none;
     }
@@ -249,6 +249,7 @@ footer p {
     }
     .col img {
         width: 55%;
+        margin-bottom: 0;
     }
     nav {
         width: 20%;
